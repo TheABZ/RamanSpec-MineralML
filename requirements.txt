@@ -1,0 +1,2 @@
+# Install the package and its testing dependencies. See requirements-tested.txt for the validated versions.
+-e .[dev]

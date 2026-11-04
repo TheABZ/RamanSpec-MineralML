@@ -1,0 +1,37 @@
+{
+  "python": "3.12.14",
+  "libraries": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "pandas": "2.2.3",
+    "matplotlib": "3.10.8",
+    "scikit-learn": "1.8.0",
+    "ramanspec-mineralml": "0.1.0"
+  },
+  "simulation": {
+    "rows": 30,
+    "cols": 30,
+    "channels": 601,
+    "seed": 42,
+    "noise": 0.025,
+    "spike_probability": 0.002,
+    "shift_min": 400.0,
+    "shift_max": 1800.0
+  },
+  "pca_components": 5,
+  "clusters": 3,
+  "normalize": true,
+  "standardize": false,
+  "asls": {
+    "lambda": 100000.0,
+    "p": 0.01,
+    "max_iter": 30,
+    "tol": 1e-05
+  },
+  "despiking": {
+    "window": 7,
+    "threshold": 8.0,
+    "max_width": 2
+  },
+  "noise_experiments": true
+}
