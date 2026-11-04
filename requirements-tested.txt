@@ -1,0 +1,7 @@
+# Direct dependency versions validated on Python 3.12.14
+numpy==2.3.5
+scipy==1.17.0
+pandas==2.2.3
+matplotlib==3.10.8
+scikit-learn==1.8.0
+pytest==9.2.0

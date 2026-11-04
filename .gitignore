@@ -218,3 +218,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Regenerable synthetic arrays and local research outputs
+results/data/
+results/figures/
+results/metrics/
+results/reports/
+data/synthetic/*.npz
+.ipynb_checkpoints/

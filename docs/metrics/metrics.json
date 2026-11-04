@@ -1,0 +1,38 @@
+{
+  "kmeans": {
+    "adjusted_rand_index": 1.0,
+    "silhouette": 0.9117569432949781
+  },
+  "gmm": {
+    "adjusted_rand_index": 1.0,
+    "silhouette": 0.9117569432949781
+  },
+  "baseline_rmse": 0.03142628515101561,
+  "spikes": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "false_positive_rate": 0.0,
+    "tp": 1115,
+    "fp": 0,
+    "fn": 0,
+    "tn": 539785
+  },
+  "peak_preservation": {
+    "clean_signal_rmse": 0.0,
+    "clean_channel_false_positive_rate": 0.0,
+    "mean_dominant_peak_relative_error": 0.0,
+    "dominant_peaks_within_1_percent": 1.0
+  },
+  "explained_variance_ratio": [
+    0.5810887764379365,
+    0.3614948325964889,
+    0.004585497554752954,
+    0.0029817993373415543,
+    0.002470187313804664
+  ],
+  "asls_convergence": {
+    "converged": 900,
+    "total": 900,
+    "maximum_iterations": 9
+  }
+}
